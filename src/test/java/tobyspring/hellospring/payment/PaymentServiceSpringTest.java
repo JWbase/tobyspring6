@@ -47,7 +47,7 @@ class PaymentServiceSpringTest {
     void validUntil() throws IOException {
         Payment payment = paymentService.prepare(1L, "USD", TEN);
 
-        // vlaidUntil이 prepare() 30분 뒤로 설정됐는가?
+        // validUntil이 prepare() 30분 뒤로 설정됐는가?
         LocalDateTime now = LocalDateTime.now(this.clock);
         LocalDateTime expectedValidUntil = now.plusMinutes(30);
 
