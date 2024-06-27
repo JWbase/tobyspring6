@@ -1,6 +1,5 @@
 package tobyspring.hellospring;
 
-import java.io.IOException;
 import java.math.BigDecimal;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
