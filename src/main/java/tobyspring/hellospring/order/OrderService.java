@@ -17,7 +17,6 @@ public class OrderService {
         this.transactionManager = transactionManager;
     }
 
-
     public Order createOrder(String no, BigDecimal total) {
         Order order = new Order(no, total);
 
